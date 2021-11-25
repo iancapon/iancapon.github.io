@@ -1,0 +1,36 @@
+button{
+    background-color:cadetblue;
+    border-radius: 3px;
+    border-color: azure;
+    color:cornsilk;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button:hover{
+    background-color:burlywood;
+}
+
+article{
+    border:solid;
+    border-color:grey;
+    border-radius:3px;
+    max-width: fit-content;
+    padding:10px;
+}
+
+p{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+tr{
+    border:solid;
+    border-color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.auto-pos{
+    position:absolute;
+    
+}

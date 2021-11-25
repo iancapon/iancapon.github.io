@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="ajax.js" text='language/javascript'></script>
+    <title>PÁGINA DE PRUEBAS</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <h4>Query en bd</h4>haaaaaa
+    <article>
+        <input type="search" name="busqueda" id="busqueda" autocomplete="off">
+        <button onclick='insertar("p1","busqueda")'>buscar</button>
+        <p id='p1'></p>
+    </article>
+    
+    <h4>Añadir a la lista</h4>
+    <article class='auto-pos'>
+        <p><ul id='p2'></ul></p>
+        <input type="text" id="add">
+        <button onclick="add('add','p2')">añadir</button>
+        <span id='v2'></span>
+    </article>
+    
+    
+</body>
+</html>
